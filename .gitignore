@@ -1,0 +1,31 @@
+###
+.gitconfig
+.clover/
+.rvmrc
+.gradle/
+.idea/
+.DS_Store
+target/
+#bin/
+build/
+javadoc/
+src/logs/
+reports/
+RemoteSystemsTempFiles/
+src/main/webapp/index.html
+.metadata/
+.project
+.classpath
+.settings
+.springBeans
+*.iml
+*.ipr
+*.iws
+*.bak
+*.diff
+
+### Vagrant
+.vagrant/
+*.box
+
+### THE END ###

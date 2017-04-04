@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+
+    <packaging>jar</packaging>
+
+    <groupId>com.baselogic</groupId>
+    <artifactId>JavaExamples</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <name>${project.artifactId}</name>
+    <description>Java Tutorials</description>
+
+    <parent>
+        <groupId>com.baselogic</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.0.0-RELEASE</version>
+        <relativePath>./parent</relativePath>
+    </parent>
+
+
+    <!--====================================================================-->
+    <!-- PROPERTIES -->
+    <!--====================================================================-->
+    <properties>
+        <java.source.version>1.8</java.source.version>
+        <java.target.version>1.8</java.target.version>
+
+        <java.compiler.arguments>-Xlint:unchecked</java.compiler.arguments>
+        <java.test.compiler.arguments>-Xlint:all</java.test.compiler.arguments>
+
+        <junit.enableAssertions>true</junit.enableAssertions>
+        <junit.failIfNoTests>true</junit.failIfNoTests>
+        <junit.forkCount>50</junit.forkCount>
+        <junit.reuseForks>true</junit.reuseForks>
+        <junit.useSystemClassLoader>false</junit.useSystemClassLoader>
+
+    </properties>
+
+    <build>
+
+        <!--================================================================-->
+        <!-- PLUGINS -->
+        <!--================================================================-->
+        <plugins>
+
+        </plugins>
+
+    </build>
+
+    <!--====================================================================-->
+    <!-- DEPENDENCIES -->
+    <!-- TO see dependency tree: 'mvn dependency:tree' -->
+    <!--====================================================================-->
+    <dependencies>
+
+    </dependencies>
+
+
+
+    <!--================================================================-->
+</project>
